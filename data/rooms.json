@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1642611442038",
+    "name": "Regular Hall - Second Floor, Left Wing",
+    "seats": 50,
+    "aminities": ["AC", "RO"],
+    "price": 5000,
+    "booked": true,
+    "start": "2022-01-19T19:30:00.000Z",
+    "end": "2022-01-19T21:30:00.000Z"
+  },
+  {
+    "id": "1642611497305",
+    "name": "Delux Hall - Ground Floor",
+    "seats": 100,
+    "aminities": ["Coffee Machine", "Soda Machine", "AC", "RO"],
+    "price": 10000,
+    "booked": true,
+    "start": "2022-01-19T19:30:00.000Z",
+    "end": "2022-01-19T21:30:00.000Z"
+  },
+  {
+    "id": "1642611413784",
+    "name": "Regular Hall - Second Floor, Right Wing",
+    "seats": 50,
+    "aminities": ["AC", "RO"],
+    "price": 5000,
+    "booked": true,
+    "start": "2022-01-19T19:30:00.000Z",
+    "end": "2022-01-19T21:30:00.000Z"
+  }
+]

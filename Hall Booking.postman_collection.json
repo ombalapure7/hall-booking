@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "716d1a2b-e72f-4cf4-a5b2-e2acb56efc5d",
+		"name": "Hall Booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all rooms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/rooms",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a room",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seats\": 100,\r\n    \"aminities\": [\r\n        \"Coffee Machine\",\r\n        \"Soda Machine\",\r\n        \"AC\",\r\n        \"RO\"\r\n    ],\r\n    \"price\": 10000,\r\n    \"booked\": false,\r\n    \"start\": \"\",\r\n    \"end\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{TASK}}/rooms",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a room",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{TASK}}/rooms/1642606863231",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"rooms",
+						"1642606863231"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book a hall",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Om Balapure\",\r\n    \"date\": \"2022/01/19\",\r\n    \"start\": \"January 20, 2022 01:00:00\",\r\n    \"end\": \"January 20, 2022 03:00:00\",\r\n    \"hall\": \"1642611413784\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{TASK}}/bookings",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"bookings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all bookings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/bookings",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"bookings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a booking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/bookings/1642618484088",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"bookings",
+						"1642618484088"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

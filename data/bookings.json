@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1642619414604",
+    "name": "Om Balapure",
+    "date": "2022/01/19",
+    "start": "2022-01-19T19:30:00.000Z",
+    "end": "2022-01-19T21:30:00.000Z",
+    "hallDetails": {
+      "id": "1642611497305",
+      "name": "Delux Hall - Ground Floor",
+      "seats": 100,
+      "aminities": ["Coffee Machine", "Soda Machine", "AC", "RO"],
+      "price": 10000,
+      "booked": true,
+      "start": "2022-01-19T19:30:00.000Z",
+      "end": "2022-01-19T21:30:00.000Z"
+    },
+    "cost": 20000
+  },
+  {
+    "id": "1642619438238",
+    "name": "Om Balapure",
+    "date": "2022/01/19",
+    "start": "2022-01-19T19:30:00.000Z",
+    "end": "2022-01-19T21:30:00.000Z",
+    "hallDetails": {
+      "id": "1642611413784",
+      "name": "Regular Hall - Second Floor, Right Wing",
+      "seats": 50,
+      "aminities": ["AC", "RO"],
+      "price": 5000,
+      "booked": true,
+      "start": "2022-01-19T19:30:00.000Z",
+      "end": "2022-01-19T21:30:00.000Z"
+    },
+    "cost": 10000
+  },
+  {
+    "id": "1642619490453",
+    "name": "Om Balapure",
+    "date": "2022/01/19",
+    "start": "2022-01-19T19:30:00.000Z",
+    "end": "2022-01-19T21:30:00.000Z",
+    "hallDetails": {
+      "id": "1642611413784",
+      "name": "Regular Hall - Second Floor, Right Wing",
+      "seats": 50,
+      "aminities": ["AC", "RO"],
+      "price": 5000,
+      "booked": true,
+      "start": "2022-01-19T19:30:00.000Z",
+      "end": "2022-01-19T21:30:00.000Z"
+    },
+    "cost": 10000
+  }
+]
