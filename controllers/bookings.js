@@ -122,8 +122,7 @@ const getAllBookings = async (req, res) => {
 
       res.status(200).json({
         booking: bookings,
-        status: "success",
-        length: bookings.length,
+        status: "success"
       });
     });
   } catch (error) {
